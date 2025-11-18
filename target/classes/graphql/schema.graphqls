@@ -1,0 +1,45 @@
+# 1. Define el tipo User (basado en UserResponse)
+type User {
+  userId: ID!
+  fullName: String
+}
+
+# 2. Define el tipo Campaign (basado en CampaignResponse)
+type Campaign {
+  campaignId: ID!
+  campaignName: String
+  isActive: Boolean
+  creationDate: String
+  creatorUser: User
+}
+
+# 3. Define el tipo de página
+type CampaignPage {
+  content: [Campaign]
+  totalPages: Int
+  totalElements: Int
+  number: Int
+  size: Int
+}
+
+# 4. Define tus consultas (Query)
+type Query {
+  campaignById(id: ID!): Campaign
+  allCampaigns: CampaignPage
+}
+
+# --- AÑADE ESTAS SECCIONES ---
+
+# 5. Define el TIPO DE ENTRADA (basado en CampaignRequest)
+# (Equivalente al 'StudentRequestInput' del maestro)
+input CampaignRequestInput {
+   campaignName: String!
+   creatorUserId: Int!
+   isActive: Boolean
+}
+
+# 6. Define las MUTACIONES (Operaciones de escritura)
+# (Equivalente al 'type Mutation' del maestro)
+type Mutation {
+    createCampaign(request: CampaignRequestInput!): Campaign
+}

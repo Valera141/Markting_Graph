@@ -1,0 +1,17 @@
+C:\Users\corla\Desktop\Nueva carpeta (2)\Marketing\src\main\java\com\example\Marketing\configuration\GraphqlConfig.java
+C:\Users\corla\Desktop\Nueva carpeta (2)\Marketing\src\main\java\com\example\Marketing\configuration\ModelMapperConfig.java
+C:\Users\corla\Desktop\Nueva carpeta (2)\Marketing\src\main\java\com\example\Marketing\controller\CampaignController.java
+C:\Users\corla\Desktop\Nueva carpeta (2)\Marketing\src\main\java\com\example\Marketing\dto\CampaignRequest.java
+C:\Users\corla\Desktop\Nueva carpeta (2)\Marketing\src\main\java\com\example\Marketing\dto\CampaignResponse.java
+C:\Users\corla\Desktop\Nueva carpeta (2)\Marketing\src\main\java\com\example\Marketing\dto\UserResponse.java
+C:\Users\corla\Desktop\Nueva carpeta (2)\Marketing\src\main\java\com\example\Marketing\exception\ResourceNotFoundException.java
+C:\Users\corla\Desktop\Nueva carpeta (2)\Marketing\src\main\java\com\example\Marketing\exception\RestExceptionHandler.java
+C:\Users\corla\Desktop\Nueva carpeta (2)\Marketing\src\main\java\com\example\Marketing\graphql\CampaignGraphqlController.java
+C:\Users\corla\Desktop\Nueva carpeta (2)\Marketing\src\main\java\com\example\Marketing\mapper\CampaignMapper.java
+C:\Users\corla\Desktop\Nueva carpeta (2)\Marketing\src\main\java\com\example\Marketing\MarketingApplication.java
+C:\Users\corla\Desktop\Nueva carpeta (2)\Marketing\src\main\java\com\example\Marketing\model\Campaign.java
+C:\Users\corla\Desktop\Nueva carpeta (2)\Marketing\src\main\java\com\example\Marketing\model\User.java
+C:\Users\corla\Desktop\Nueva carpeta (2)\Marketing\src\main\java\com\example\Marketing\repository\CampaignRepository.java
+C:\Users\corla\Desktop\Nueva carpeta (2)\Marketing\src\main\java\com\example\Marketing\repository\UserRepository.java
+C:\Users\corla\Desktop\Nueva carpeta (2)\Marketing\src\main\java\com\example\Marketing\service\CampaignService.java
+C:\Users\corla\Desktop\Nueva carpeta (2)\Marketing\src\main\java\com\example\Marketing\service\CampaignServiceImpl.java
